@@ -1,0 +1,282 @@
+@charset "utf-8";
+
+/*  ---------------------------------------------
+				reset all styles
+    --------------------------------------------- */
+.zuperSlider,
+.zuperSlider * {
+    margin: 0;
+    padding: 0;
+    border: medium none;
+    font: normal 12px/18px Arial,Verdana;
+}
+
+.zuperSlider *:focus{
+	outline: none
+}
+
+.zuperSlider *::-moz-focus-inner {
+    border: medium none;
+}
+
+.zuperSlider ul, 
+.zuperSlider ul li {
+    list-style-type: none;
+}
+/*	END - reset all styles */
+
+
+/*  ---------------------------------------------
+				general properties
+    --------------------------------------------- */
+/* for carousel skin responsive is not available */
+.zuperWrap {	}
+
+/* change the slider width and height */
+.zuperSlider {
+	position: relative;
+	width: 274px;
+	height: 358px;
+	margin:0 auto;
+} 
+
+/* hide all children of slider (used for loading screen) */
+.zuperSlider > * {
+    visibility: hidden;
+}
+
+/* loading screen image and size */
+.zuperSliderLoader {
+     background: url("../images/loader.gif") no-repeat scroll center center transparent;
+}
+
+.zuperSlider img {
+     display: block;
+     opacity:1 !important;
+     filter: alpha(opacity = 100); 
+}
+/*  END - properties */
+
+/*  ---------------------------------------------
+				container properties
+    --------------------------------------------- */
+.zuperSlider > .container {
+    position: absolute;   
+	/*overflow: hidden;*/
+    z-index: 1;     
+    
+    /* change container size here */
+    width: 100%;
+    height: 100%;
+}
+
+/* set container dimension */
+.zuperSlider > .container > ul {
+    position: absolute;    
+    width: 100%;
+    height: 100%;      
+}
+
+/* style <li>  of container */ 
+.zuperSlider > .container > ul > li {
+   position: absolute;
+/*  visibility: hidden; @todelete
+    display: block;*/
+    left: 0pt;
+    top: 0pt;
+/*    background:#fff; @todelete*/
+    -webkit-box-shadow:0 8px 3px -6px #434040;
+    -moz-box-shadow:0 8px 3px -6px #434040;
+    -ms-box-shadow:0 8px 3px -6px #434040;
+    -o-box-shadow:0 8px 3px -6px #434040;
+    box-shadow:0 8px 3px -6px #434040;   
+    width:100%;
+    height:100%; 
+}
+
+/* first child will be above all children */
+.zuperSlider > .container > ul > li:nth-child(1) {
+     z-index: 2;
+}
+
+/* slide active will have class 'active3' */
+.zuperSlider > .container > ul > li.active3 {
+    visibility: visible;
+    overflow: hidden;
+    z-index: 4;
+}
+
+/* slide animated will have class 'active2' */
+.zuperSlider > .container > ul > li.active2 {
+     visibility: visible;
+     overflow: hidden;
+     z-index: 3;
+}
+/*	END - container properties */
+
+
+/*  ---------------------------------------------
+    direction navigation - arrows (next, prev)
+    --------------------------------------------- */
+.zuperSlider > .arrow {
+    position: absolute;
+    z-index: 20;
+    cursor: pointer;  
+    
+    /* change arrows size here */
+	width: 54px;
+	height: 55px;        
+}
+
+/* right arrow image */
+.zuperSlider > .next {
+     background: url("../images/sprite.png") no-repeat scroll -95px -3px transparent;
+}
+
+.zuperSlider > .next:hover {
+     opacity:0.8;
+     filter: alpha(opacity = 80);
+}
+
+/* left arrow  image */
+.zuperSlider > .prev {
+     background: url("../images/sprite.png") no-repeat scroll -151px -3px transparent;
+}
+
+.zuperSlider > .prev:hover {
+	  opacity:0.8;
+     filter: alpha(opacity = 80);
+}
+/*  END - arrow buttons (next, prev) */
+
+
+/*  ---------------------------------------------
+				auto (slideshow)
+    --------------------------------------------- */
+/* circular type */
+.zuperSlider > .circular {
+    background: url("../images/sprite.png") no-repeat scroll 0 0 transparent;
+    position: absolute;
+    z-index: 17;
+    
+    /* change circular size here */
+    width: 30px;
+    height: 30px;    
+}
+.zuperSlider > .circular > .circularWrap {    
+    cursor: pointer;
+    position: absolute;
+    
+    /* change circular clip property here */
+    clip: rect(0 30px 30px 15px);
+    
+    /* change circular container size here */
+    height: 30px;
+    width: 30px;    
+}
+
+.zuperSlider > .circular > .circularWrap > .circularRight, 
+.zuperSlider > .circular > .circularWrap > .circularLeft {
+    position: absolute;
+    top: 0;
+    left: 0;
+    -moz-transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+    
+    /* change circular elements size here */
+    width: 30px;
+    height: 30px;    
+}
+
+/* circular left element */
+.zuperSlider > .circular > .circularWrap > .circularLeft {
+    background: url("../images/sprite.png") no-repeat scroll -31px 0 transparent;
+    display: none;
+}
+
+/* circular right element */
+.zuperSlider > .circular > .circularWrap > .circularRight {
+    background: url("../images/sprite.png") no-repeat scroll -61px 0 transparent;
+}
+
+/* numbers type */
+.zuperSlider > .numbers {
+	color: #fff;
+	font: italic 26px Georgia,Arial,Verdana;
+	position: absolute;
+	z-index: 17;
+}
+
+/* line type */
+.zuperSlider > .wrapTimer {
+    position: absolute;
+    z-index: 17;    
+    overflow: hidden;
+    
+    /* change line width here */
+    width:274px;
+}
+
+.zuperSlider > .wrapTimer > .timer {
+	background: #fff;
+
+	/* change line height here */
+	height: 2px;
+}
+
+/* play/pause button */
+.zuperSlider > .playPause {
+	cursor: pointer;     
+	position: absolute;     
+	z-index: 18;
+
+	/* change play/pause size here */
+	width: 13px;
+	height: 13px;
+}
+
+/* play is visible */
+.zuperSlider > .play {
+	background: url("../images/sprite.png") no-repeat scroll -1px -34px transparent;
+}
+
+.zuperSlider > .play:hover {
+	background: url("../images/sprite.png") no-repeat scroll -1px -50px transparent;
+}
+
+/* pause is visible */
+.zuperSlider > .pause {
+	background: url("../images/sprite.png") no-repeat scroll -18px -33px transparent;
+}
+
+.zuperSlider > .pause:hover {
+	background: url("../images/sprite.png") no-repeat scroll -18px -50px transparent;
+}
+/*  END - auto (slideshow) */
+
+
+/*  ---------------------------------------------
+					caption
+    --------------------------------------------- */
+.zuperSlider .caption {
+	position: absolute;
+	z-index: 2;
+	opacity: 0;
+	filter: alpha(opacity = 0);
+}
+
+/* start - captions style */
+.captionH1 {
+    background: none repeat scroll 0 0 #000000;
+    color: #FEFEFF;
+    font: 700 25px 'Rokkitt',serif,Arial;
+    left: 0;
+    padding: 10px 0;
+    text-align: center;
+    top: 86%;
+    width: 100%;
+}
+/*	END - caption */

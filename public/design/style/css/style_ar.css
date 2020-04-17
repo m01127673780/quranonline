@@ -1,0 +1,15 @@
+ .nav-link {
+     margin: 0 4px;
+}
+body{
+    font-family: 'Mukta', sans-serif !important;
+}
+body{
+  font-family: cairo!important;
+}
+
+.card.alt .toggle {
+ 
+    left: 95%!important;
+    width: 128px!important;
+}

@@ -1,0 +1,40 @@
+
+
+@media (max-width: 600px) {
+	.cardslider-cards {
+		width: 80%;
+	}
+}
+
+.cardslider-card {
+	padding: 20px;
+	color: black;
+	font-size: 4rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.cardslider-card.center {
+	text-align: center;
+}
+
+.no-center {
+	display: block;
+}
+
+
+
+
+
+
+.cardtitle {
+	font-size: 1.4rem;
+	position: absolute;
+	bottom: 20px;
+	width: 100%;
+	left: 0;
+	text-align: center;
+	display: block;
+}

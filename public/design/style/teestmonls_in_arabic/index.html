@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>jQuery cardslider</title>
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<link href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" rel="stylesheet" type="text/css">
+<link href="dist/css/cardslider.css" rel="stylesheet">
+<link href="demo.css" rel="stylesheet">
+</head>
+<body>
+<div class="my-slider">
+  <ul>
+    <li>jQuery cardSlider Plugin👋</li>
+    <li class="center">This is card 2</li>
+    <li class="center">This is card 3</li>
+    <li>This is card 4</li>
+    <li>This is card 5 </li>
+    <li>This is card 6 </li>
+    <li> This is card 7 </li>
+    <li class="center">This is the last card </li>
+  </ul>
+</div>
+<script src="http://code.jquery.com/jquery-2.2.3.min.js"></script> 
+<script src="jquery.event.move.js"></script> 
+<script src="jquery.event.swipe.js"></script> 
+<script src="dist/js/jquery.cardslider.min.js"></script> 
+<script>
+			$('.my-slider').cardslider({
+				swipe: true,
+				dots: true
+			});
+		</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

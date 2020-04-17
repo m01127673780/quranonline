@@ -1,0 +1,5 @@
+
+<link rel="stylesheet" href="{{ url('/') }}/design/adminlte/dist/css/rtl/rtl/AdminLTE-rtl.min.css">
+<link rel="stylesheet" href="{{ url('/') }}/design/adminlte/dist/css/rtl/rtl/bootstrap-rtl.min.css">
+<link rel="stylesheet" href="{{ url('/') }}/design/adminlte/dist/css/rtl/rtl/font-awesome-rtl.min.css">
+<link rel="stylesheet" href="{{ url('/') }}/design/adminlte/dist/css/rtl/rtl/rtl.css">

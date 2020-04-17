@@ -1,0 +1,22 @@
+{
+  "name": "cardslider",
+  "version": "1.2.1",
+  "description": "A simple and lightweight jQuery card slider",
+  "main": "dist/js/jquery.cardslider.min.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/konstantingassmann/cardslider.git"
+  },
+  "keywords": [
+    "card",
+    "cards",
+    "slider",
+    "jquery",
+    "carousel"
+  ],
+  "author": "Konstantin Gassmann konstantin.gassmann@gmail.com",
+  "license": "WTFPL",
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}

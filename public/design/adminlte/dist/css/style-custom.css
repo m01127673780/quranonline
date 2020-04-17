@@ -1,0 +1,174 @@
+ .box-body {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    padding: 10px;
+    display: inline-block;
+   width: 99%;
+      overflow-y: auto;
+} 
+
+
+
+@media (max-width: 50px) {
+   table,
+   thead,
+   tbody,
+   th,
+   td,
+   tr {
+    display: block;
+  }
+   thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+   td {
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 50%!important;
+    white-space: normal;
+    text-align: left;
+  }
+   td:before {
+    position: absolute;
+    top: 8px;
+    left: 15px;
+    width: 45%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: left;
+    font-weight: bold;
+  }
+   td:first-child {
+    padding-top: 17px;
+  }
+   td:last-child {
+    padding-bottom: 16px;
+  }
+   td:first-child:before {
+    top: 17px;
+  }
+   td:before {
+    content: attr(data-title);
+  }
+  .table tbody tr {
+    border-top: 1px solid #ddd;
+  }
+  .table tbody tr td {
+    border: none;
+  }
+}
+
+
+ 
+h1 {
+  margin-bottom: 50px;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  font-weight: normal;
+}
+ {
+  background: #fff;
+}
+
+.table tbody tr:nth-child(odd) {
+  background: #eee;
+}
+
+@media (min-width: 768px) {
+  .table thead tr th,
+  .table tbody tr td {
+    padding:  5px 10px;
+  }
+}
+
+
+@media (max-width: 767px) {
+.skin-blue .main-header .navbar .dropdown-menu li a {
+    color: #000!important;
+}
+}
+.navbar-nav>.user-menu>.dropdown-menu>li.user-header>img {
+ 
+    margin-bottom: -9px;
+}
+ .img_flag {
+  width: 20px;
+  height: 20px;
+  border-radius:50%;
+}
+.yellow {
+  color: #f39c12
+}
+.green {
+  color: #00a65a
+}
+.blue{
+  color:#00a3cb; 
+}
+.yellow {
+  color: #f39c12;
+}
+.orange {
+  color:#cc953e;
+}
+.red {
+  color: #b16262;
+}
+.eee {
+    color: gray;
+  }.gray {
+    color: burlywood;
+  }
+  .marg-padd {
+margin : 10px  0 }
+   margin {
+margin-bottom: 20px}
+
+
+
+.user-image-larg{
+    height: 90px;
+    width: 90px;
+    border: 3px solid;
+    border-color: transparent;
+    border-color: rgba(255,255,255,0.2)
+}
+
+
+ .div {
+  font-family: 'Sedgwick Ave', cursive;
+  font-size: 2em;
+  text-indent: 2em;
+  border: 42px solid black;
+  border-image-slice: 42 42 42 42;
+  border-image-width: 42px 42px 42px 42px;
+  border-image-outset: 0px 0px 0px 0px;
+  border-image-repeat: round round;
+  border-image-source: url("https://mdn.mozillademos.org/files/6017/border-image-6.svg");
+}
+/*----------------------------student---------------------*/
+
+   
+  /*-----------*/
+   .head-h3{
+  margin: 50px 0;
+  border-bottom: 1px solid #000;
+ }
+<<<<<<< HEAD
+ 
+
+   /*================= style from backend  ================================*/
+   .img-50-h-w{
+  width: 50px!important;height: 50px!important;
+}
+   /*=================  End style from backend  ================================*/
+=======
+>>>>>>> efbee0cc6b55447ca4f5f58966dfc98ec0ad49ac
+ 

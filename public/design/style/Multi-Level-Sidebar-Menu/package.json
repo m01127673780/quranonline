@@ -1,0 +1,42 @@
+{
+  "name": "hc-offcanvas-nav",
+  "version": "3.4.1",
+  "description": "jQuery plugin for creating off-canvas multi-level navigations",
+  "homepage": "http://somewebmedia.com/hc-offcanvas-nav",
+  "main": "dist/hc-offcanvas-nav.js",
+  "sass": "src/scss/hc-offcanvas-nav.scss",
+  "author": {
+    "name": "Some Web Media",
+    "url": "http://somewebmedia.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/somewebmedia/hc-offcanvas-nav.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "uglify-save-license": "^0.4.1",
+    "yargs": "^13.2.2"
+  },
+  "keywords": [
+    "nav",
+    "navigation",
+    "menu",
+    "mobile",
+    "mobile-nav",
+    "hamburger",
+    "hamburger-menu",
+    "jquery",
+    "plugin",
+    "jquery-plugin"
+  ]
+}
