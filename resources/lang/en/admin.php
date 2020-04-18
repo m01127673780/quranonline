@@ -180,10 +180,10 @@ return [
         'about_us'       =>' About  ',
         'about_us'       =>' About  ',
         'in_course'       =>' In Cource  ',
-        'Statistics'       =>' Statistics Quransquare',
-        'Statistics'       =>' Statistics Quransquare',
+        'Statistics'       =>' Statistics Lern Quran ',
+        'Statistics'       =>' Statistics Lern Quran ',
         'Our_teachers'            =>'   Our Teachers ',
-        'testimonial'            =>'   Testimony students  Quransquare   ',
+        'testimonial'            =>'   Testimony students  Lern Quran    ',
         'Why_hoose_Us'            =>' Why Choose Us   ',
         'prices'            =>'  Prices',
         'call_us'            =>'   CALL US   ',
@@ -209,7 +209,7 @@ return [
         'home'            =>'      HOME            ', 
         'contactus'            =>'      Contact Us             ', 
 
-		'welcome_to_quransquare'            =>'         welcome to quransquare           ',
+		'welcome_to_quransquare'            =>'         welcome to Lern Quran            ',
 		'Wait_for_your_account_to_be_activated'            =>'         Wait for your account to be activated  ',
 		'successfully_registered'            =>'        Congratulations, you have been registered with us successfully    ',
        'full_name'            =>'   Full Name    ',
@@ -245,22 +245,22 @@ return [
         'additional_information'            =>'Additional Information',
         'executive_director'            =>'Executive Director ',
         'text_marketing_director'            =>' marketing director ',
-        'text_developed_by'            =>'    Sayyad Web <elsayadweb /> ::: software and developments in the latest modern programming methods Designed and developed by Engineer Mohamed Al-Sayyad    ',
+        'text_developed_by'            =>'    sayad Web <elsayadweb /> ::: software and developments in the latest modern programming methods Designed and developed by Engineer Mohamed Al-sayad    ',
         'text_in_sayadweb'            =>'     Its methodology relies on scientific analysis of the project, extensive study and adding ideas that create a new spirit for the projects presented to its clients that reflect its impressive success on the establishment and the team working for the service, and from these clients, your equipment - logic - documented - relax - committed ... etc.  ',
 
-        'text_executive_director'            =>'  Engineer :: Ahmed Ramadan, designer and programmer of the application on August Astor and shop
+        'text_executive_director'            =>'  Engineer :: Ali Imran , designer and programmer of the application on August Astor and shop
  Jajajel, Executive Director of Institute Affairs: We always strive to invent the latest methods, and present them to my dear students ’students to make the way of learning the Arabic language and memorize the Book of God the Mourning and Glory is the most enjoyable time   very happy to serve you ',
          
-        'text_general_manager'            =>'  Engineer Muhammad Ramadan, welcome to our dear students and brothers in your institute Our vision is: The first reference in teaching the Holy Quran and reading it according to the highest quality standards Apply the best methods of teaching the Book of God Almighty at the hands of experienced specialists for different segments of Muslims, and return the ummah to the book of its Lord, recitation, memorization and action. And inform the Koran The honorable as it was revealed to our master Muhammad (may God’s prayers be upon him), and peace be upon him all over the world. ',
+        'text_general_manager'            =>'  Engineer Youssef Yassin , welcome to our dear students and brothers in your institute Our vision is: The first reference in teaching the Holy Quran and reading it according to the highest quality standards Apply the best methods of teaching the Book of God Almighty at the hands of experienced specialists for different segments of Muslims, and return the ummah to the book of its Lord, recitation, memorization and action. And inform the Koran The honorable as it was revealed to our master Muhammad (may God’s prayers be upon him), and peace be upon him all over the world. ',
              'jobs'            =>' JOBS    ',
-             'Quran_Square_Institute'            =>' Quran Square Institute is seeking for hiring the best-qualified Quran and Arabic teachers who master both the theoretical and practical aspects as well as the English language in addition to high teaching skills. If you are eligible and want to join our Team ،  please write down your email ،  and the specialization you want to work in and upload your resume. We will contact you within 48 hours.    ',
+             'Quran_Square_Institute'            =>' Lern Quran Institute is seeking for hiring the best-qualified Quran and Arabic teachers who master both the theoretical and practical aspects as well as the English language in addition to high teaching skills. If you are eligible and want to join our Team ،  please write down your email ،  and the specialization you want to work in and upload your resume. We will contact you within 48 hours.    ',
              'Join_our_team'            =>' Join with us & be a part of our team    ',
 
-            // 'text_general_manager'            =>'  Engineer :: Mohamed Ramadan, welcome to our dear students in your institute, the Yard of the Quran Institute. We are working hard to inform the ayatollahs of condolences and glory to all over the world. This is our most valuable and supreme goal. Our goal is to teach, memorize and improve the Holy Qur’an as it was revealed to our master Muhammad, peace and blessings be upon him. around the world
+            // 'text_general_manager'            =>'  Engineer :: Youssef Yassin , welcome to our dear students in your institute, the Yard of the Quran Institute. We are working hard to inform the ayatollahs of condolences and glory to all over the world. This is our most valuable and supreme goal. Our goal is to teach, memorize and improve the Holy Qur’an as it was revealed to our master Muhammad, peace and blessings be upon him. around the world
 
 
 // -----------------------------start tabs
-        'tabe_1'            =>'    Quran Square It is an online institute that offers Arabic and Quranic lessons for you and your children through qualified and highly experienced teachers from Egypt who have studied Arabic and the Qur-an at Al-Azhar University. They have many years of experience teaching Arabic and the Quran to non-native speakers. In Quranic verses،  we provide the most appropriate educational material to help you practice what you learn around the clock،  not just during lessons. We focus on providing interactive lessons to you and all your family members. We follow up on your homework for you and your children in each lesson. After that،  we give you tests to ensure you improve and make progress in your lessons. You are neither too young nor older to learn. The Holy Quran Institute offers verses of the Quran :  Islam and Arabic lessons for children and adults alike. We cater to the needs of all age groups because we strongly believe that knowledge of the, an is of great importance and value to people of all ages.                             ',
+        'tabe_1'            =>'    Lern Quran It is an online institute that offers Arabic and Quranic lessons for you and your children through qualified and highly experienced teachers from Egypt who have studied Arabic and the Qur-an at Al-Azhar University. They have many years of experience teaching Arabic and the Quran to non-native speakers. In Quranic verses،  we provide the most appropriate educational material to help you practice what you learn around the clock،  not just during lessons. We focus on providing interactive lessons to you and all your family members. We follow up on your homework for you and your children in each lesson. After that،  we give you tests to ensure you improve and make progress in your lessons. You are neither too young nor older to learn. The Holy Quran Institute offers verses of the Quran :  Islam and Arabic lessons for children and adults alike. We cater to the needs of all age groups because we strongly believe that knowledge of the, an is of great importance and value to people of all ages.                             ',
         'our_vision'            =>' Our vision',
         'text_our_vision'            =>' Excellence and leadership in teaching the Arabic language and the Holy Quran with less effort and faster time.',
 
@@ -402,14 +402,13 @@ The above two hadiths shows the importance of learning Quran. An important point
 'all_statistics'=>'All Statistics',
 'pages'=>'Pages',
  'Allcourses'=>' Courses',
-'Allstatistics'=>' Statistics',
+'statistics'=>' Statistics',
 'AllPrices'=>' Prices',
 'Allwhyus'=>' Whyus',
 'remember_me'=>'Remember me',
-''=>'',
-''=>'',
-''=>'',
-''=>'',
-''=>'',
-''=>'',
+'show_all_courses'=>'Remember me',
+'read_more'=>' Read more ',
+
+ 
+'q_s_videos'=>'Videos',
   ];

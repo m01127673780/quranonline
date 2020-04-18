@@ -125,7 +125,7 @@
     
         public function all_courses (){
  
-     $all_courses            =Courses::orderBy('created_at','ASC')->paginate(5);
+     $all_courses            =Courses::orderBy('created_at','ASC')->paginate(16);
      $setting            =Setting::all();
      $whyus              =Whyus::all();
       $videos             =Videos::all();
@@ -166,7 +166,7 @@
         public function all_statistics (){
  
      $all_courses            =Courses::orderBy('created_at','ASC')->paginate(35);
-     $all_statistics            =Stat::all();
+     $all_statistics            =Stat::orderBy('created_at','ASC')->paginate(18);
       $setting            =Setting::all();
      $whyus              =Whyus::all();
       $videos             =Videos::all();
@@ -251,7 +251,7 @@
      $all_courses            =Courses::orderBy('created_at','ASC')->paginate(35);
      $all_statistics            =Stat::all();
       $setting            =Setting::all();
-     $whyus              =Whyus::orderBy('created_at','ASC')->paginate(12);
+     $whyus              =Whyus::orderBy('created_at','ASC')->paginate(20);
       $videos             =Videos::all();
      $teachers           =Teachers::all();
       $beststudent       =BestStudent::all();

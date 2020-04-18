@@ -1,5 +1,8 @@
 
+<script>
+        $('#modal_countdown').modal('show');
 
+</script>
 <nav class="navbar navbar-expand-lg    fixed-top  ">
     <div class="container-fluid">
         <a class="navbar-brand" href="{{url('/')}}" class="black-comany-name">
@@ -17,16 +20,16 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item "><a class="nav-link call_us" href="#" id="call_us">  {{trans('admin.call_us')}}  +447418397601<span class="sr-only">(current)</span></a> </li>
-                <!------------------------------------------------------->
-                <li class="nav-item dropdown">
+                <li class="nav-item "><a class="nav-link call_us" href="#" id="call_us">  {{trans('admin.call_us')}}  +999998397789<span class="sr-only">(current)</span></a> </li>
+                                      <!------------------------------------------------------->
+                <li class="nav-item dropdown ">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         {{trans('admin.pages')}}
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="dropdown-menu pages_drop" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="{{url('Allcourses')}}">
                             <div class="media">
-                                <img src="{{url('default')}}/student.jpg" alt="student.jpg" class="img_login_user">
+                                <img src="{{url('default/icon_pages')}}/1.png" alt="student.jpg" class="img_login_user">
                                 <div class="media-body"> <h6 class="dropdown-item-title">{{trans('admin.Allcourses')}}  </h6></div>
                             </div>
 
@@ -34,29 +37,28 @@
                         <a class="dropdown-item" href="{{url('Allwhyus')}}">
 
                             <div class="media">
-                                <img src="{{url('default')}}/teacher.jpg" alt="teacher.jpg" class="img_login_user">
-                                <div class="media-body"> <h6 class="dropdown-item-title"> {{trans('admin.why_us')}} </h6></div>
+                                <img src="{{url('default/icon_pages')}}/2.jpg" alt="teacher.jpg" class="img_login_user">
+                                <div class="media-body"> <h6 class="dropdown-item-title"> {{trans('admin.whyus')}} </h6></div>
                             </div>
                         </a>
                         <a class="dropdown-item" href="{{url('AllPrices')}}">
 
                             <div class="media">
-                                <img src="{{url('default')}}/teacher.jpg" alt="teacher.jpg" class="img_login_user">
-                                <div class="media-body"> <h6 class="dropdown-item-title"> {{trans('admin.all_prices')}} </h6></div>
+                                <img src="{{url('default/icon_pages')}}/4.png" alt="teacher.jpg" class="img_login_user">
+                                <div class="media-body"> <h6 class="dropdown-item-title"> {{trans('admin.prices')}} </h6></div>
                             </div>
                         </a>
                         <a class="dropdown-item" href="{{url('Allstatistics')}}">
 
                             <div class="media">
-                                <img src="{{url('default')}}/teacher.jpg" alt="teacher.jpg" class="img_login_user">
-                                <div class="media-body"> <h6 class="dropdown-item-title"> {{trans('admin.all_statistics')}} </h6></div>
+                                <img src="{{url('default/icon_pages')}}/3.jpg" alt="teacher.jpg" class="img_login_user">
+                                <div class="media-body"> <h6 class="dropdown-item-title"> {{trans('admin.statistics')}} </h6></div>
                             </div>
                         </a>
                    </div>
 
                 </li>
                 <!------------------------------------------------------->
-
                 <li class="nav-item ">
                     <a class="nav-link single" href="{{url('/')}}" id="Home"> {{trans('admin.home')}}<span class="sr-only">(current)</span></a>
                 </li>
@@ -89,9 +91,9 @@
 
 
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> {{trans('admin.login')}}
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> {{trans('admin.register')}}
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="dropdown-menu login_drop" aria-labelledby="navbarDropdown">
 
                         <a class="dropdown-item" href="student">
                             <div class="media">
@@ -111,7 +113,7 @@
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        {{trans('admin.register')}}
+                        {{trans('admin.login')}}
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="{{url('login/student')}}">

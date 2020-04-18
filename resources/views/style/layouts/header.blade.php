@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <title>quransquare :: ONLINE QURAN </title>
+     <title>LernQuran :: ONLINE QURAN </title>
     <!-- mobile responsive meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     @foreach($setting as $sett)
@@ -52,10 +52,31 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="{{ url('design/style/Multi-Level-Sidebar-Menu') }}/hc-offcanvas-nav.js?ver=3.4.1"></script>
     <style type="text/css">
+    
+    .hc-nav-trigger span::before {
+    /* top: -10px; */
+    /* display: block; */
+    font-family: FontAwesome;
+    display: inline-block;
+    padding-right: 6px;
+    vertical-align: middle;
+    content: "\f039";
+    background: #444;
+    color: #444;
+    font-size: 30px;
+}
     .dropdown-menu.lang
     {
         left: -97px!important;
-    }
+    }   
+    .dropdown-menu.pages_drop
+    {
+        left: -37px!important;
+     } 
+     .dropdown-menu.login_drop
+    {
+        left: 10px!important;
+     }
     
         .toggle_icon span{
 
@@ -1624,13 +1645,13 @@ padding-bottom: 107px;
 }
 .stats:hover .icon-sta, .c-col-services:hover i {
      background: #474343;
-         display:none;
-         transform: rotate(45deg);
+          transform: rotate(45deg);
+background-color: rgba(255, 255, 255, 0.8);
 
 }
 .stats .icon-sta, .c-col-services i {
     padding: 10px;
-    background: red;
+    /*background: red;*/
 }
 /*---------------------------- End           section    stat     -------------------*/
  /*---------------------------- start      section Our  Teachers    -------------------*/
@@ -1708,7 +1729,134 @@ footer .by-me a>i {
     transition: all 9900s ease!important;
 }
 /*------------------End   page course ----------------------------*/
+/*--------------------start virgin 3------------------*/
+.h4-whyus {
 
+    overflow: hidden!important;
+}
+body {
+    background: none!important;
+    background-image: url(https://www.tarteelequran.com/wp-content/themes/maxx-wp/images/footer-pattern.png)!important;
+}
+.div-whyus.back-fff{
+        background-color: none!important;
+
+}
+.tabs_move {
+    margin-top: 51px;
+    margin-bottom: 30px;
+}
+@media(max-width:768px){
+    
+.tabs_move .col-md-6 {
+    margin: 0px!important;
+    padding: 0!important;
+}
+.tabs_move .container{
+    margin: 0px!important;
+    padding: 0!important;
+}
+ .read_more.Allwhyus{
+     margin-top:30px!important;
+ }
+.img_q_s_videos {
+   
+    padding-bottom: 20px!important;
+}
+}
+.all_q_s_videos .app-review  {
+    background: none!important;
+}
+.content_jobs {
+ 
+    margin-bottom: -56px!important;
+}
+.section-all-fotar  .app-review  {
+    background: none!important;
+}
+.read_more{
+        margin:  auto!important;
+}
+.statistics-n .stats i {
+    color: #fff;
+    line-height: 1.5!important;
+}
+.pagination {
+ 
+    margin: auto!important;;
+    margin-top: 30px!important;;
+}
+.AllCource .scetionpath-courses {
+    margin-top: -7px;
+    padding-bottom: 50px;
+    background: none!important;
+}
+.AllCource .paths-setionpath-courses {
+    fill: transparent!important;
+    stroke: #f3f3f3;
+}
+.img_larg_top{
+    background-position: center!important;
+}
+ @media (max-width: 500px){
+.logo-img {
+    width: 100px;
+    height: 50px;
+        margin-top: -12px;
+
+}
+}
+.navbar.navbar-expand-lg.fixed-top.sticky_head .logo-img {
+  width: 110px;
+    height: 36px;
+    margin-top: -12px;
+}
+ 
+.home_page_section_courses  .paths-setionpath-courses {
+    fill: #f9f9f9!important;
+    stroke: #f9f9f9;
+}
+.home_page_section_courses  .scetionpath-courses {
+    margin-top: -7px;
+    padding-bottom: 50px;
+    background: #f9f9f9!important;
+}
+
+
+ 
+.text_Wait_for__account {
+    color: #fff;
+    font-size: 9px!important;
+    line-height: 1.5;
+    margin-top: -25px;
+    margin-bottom: 0px!important;
+}
+{{-----------------------------------}}
+@php
+    $lang = session('lang');
+
+    if (empty (session('lang')))
+    {
+    $lang ='ar';
+    }
+ @endphp
+ @if  (session('lang') == 'ar')
+ .text_Wait_for__account {
+ 
+    font-size: 9px!important;
+    line-height: 1.5;
+   
+}
+ @else
+  .text_Wait_for__account {
+ 
+    font-size: 9px!important;
+    line-height: 1.5;
+   
+}
+ @endif
+{{-----------------------------------}}
+/*--------------------start virgin 3------------------*/
     </style>
 
 </head>
